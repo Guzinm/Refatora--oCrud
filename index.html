@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Usuários - Refatorada</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <main>
+        <h1>Lista de Usuários</h1>
+
+        <form>
+            <label>
+                Nome:
+                <input type="text" name="nome" placeholder="Usuário">
+            </label>
+            <label>
+                Email:
+                <input type="email" name="email" placeholder="exemplo@gmail.com">
+            </label>
+            <button type="submit">Cadastrar Usuário</button>
+        </form>
+
+        <ul id="usersList">
+        </ul>
+    </main>
+
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
