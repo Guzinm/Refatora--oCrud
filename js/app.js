@@ -16,6 +16,7 @@ formulario.addEventListener("submit", async(evento) => {
     await atualizarLista(listaDeUsuários);
     atualizarInterface(listaDeUsuários);
 
+    formulario.reset();
 });
 
 document.addEventListener('DOMContentLoaded', async() => {
