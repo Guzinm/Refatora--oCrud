@@ -58,7 +58,6 @@ export const atualizarInterface = (lista) => {
         botao.replaceWith(novobotao);
         
         novobotao.addEventListener('click', async() => {
-            console.log("a")
             await removeUser(botao.dataset.id);
             const novalista = await atualizarLista(lista);
             atualizarInterface(novalista);
